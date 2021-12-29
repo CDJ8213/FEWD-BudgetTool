@@ -33,17 +33,23 @@
     width: 10em;
     border-radius: 25px;
     
+    
+    
 }
 .data-entry_selector {
     padding: .25em;
     width: 10em; 
     height: 1em;
-    margin-top: .25em;
+    margin-top: .02em;
     
   
 }
 .select {
     width: 10em;
+    height: 2em;
+    margin-top: .15em;
+    border-radius: 25px;
+
 }
 
 .data-entry_actions{
@@ -52,7 +58,7 @@ display: flex;
 
 .grid-container {
     display: inline-grid;
-    grid-template-columns: 350px 250px;
+    grid-template-columns: 500px 350px;
     background-color: #165181;
     padding: 5px;
     margin-top: 2em;
@@ -64,7 +70,7 @@ display: flex;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     overflow-wrap: break-word;
     

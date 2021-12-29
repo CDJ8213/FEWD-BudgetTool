@@ -1,0 +1,54 @@
+@media screen and (max-width: 992px) {
+    .data-entry_input {
+        width: 90%;
+        padding: .5em;
+        margin-bottom: .5em;
+        margin-left: .6em;
+        font-size: large;
+        
+         }
+    
+    .div {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+    }
+    .data-entry_saves  {
+        padding: .25em;
+        width: 7em;
+        border-radius: 25px;
+        
+    }
+    .data-entry_clear {
+        padding: .25em;
+        width: 7em;
+        border-radius: 25px;
+        
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: 185px 130px;
+        background-color: #165181;
+        padding: 10px;
+        margin-top: 2em;
+        margin-left: .1em;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        overflow-wrap: break-word
+    }
+    .select {
+        width: 7em;
+        height: 2em;
+        margin-top: .25em;
+        border-radius: 25px;
+
+    }
+}
