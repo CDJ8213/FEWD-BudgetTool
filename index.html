@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styless.css">
+    <link rel="stylesheet" href="styles/small_media.css">
+    <title>MyBudgetTool</title>
+
+</head>
+<body>
+    <section class="data-entry">
+        <div class="data-entry_inputs margin-1">
+           <input class="data-entry_input" id="name" type="text" placeholder="Name"/>
+           <input class="data-entry_input" id="amount" type="number" placeholder="Amount" />
+         </div>
+         <div class="data-entry_actions">
+             
+            <div class="data-entry_selector margin-1">
+                <select class="select" id="selector_options">
+                  <option value="subtract">Debit</option>
+                  <option value="add">Credit</option>
+                </select>
+                </div>
+            
+            <div class="data-entry_saves margin-1">
+                 <button class="data-entry_saves" id="save" onclick="aggregate()">Save</button>
+        
+             </div>
+
+            <div class="data-entry_clear margin-1">
+                 <button class="data-entry_clear" id="clear" onclick="clearFn()">Clear</button>
+
+            </div>
+
+             
+         </div>
+
+        <div class="grid-container" id="balance_grid">
+         <div class="grid-item">Name</div>
+         <div class="grid-item">Amount</div>
+         
+        
+        
+        
+        </div>
+         <div class="data-entry_cloumn-total margin-1">
+
+            <div class="data-entry_the-balance">
+                Your balance is: 
+            </div>
+            <div class="data-entry_cloumn-total" id="the-balance">
+            </div>
+         </div>
+       </div>
+
+
+
+
+     </section>
+     <script type="text/javascript" src=JS/script.js></script>
+
+    
+    
+</body>
+</html>
