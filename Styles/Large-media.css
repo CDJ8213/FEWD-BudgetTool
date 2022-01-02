@@ -11,12 +11,15 @@
 
     .data-entry_saves {
         font-size: 15px;
+        margin-left: 7em;
+        width: 15em;
 
     }
     .data-entry_clear {
         font-size: 15px;
         margin-top: 1.25em;
-        margin-left: -3.75em;
+        margin-left: -4.2em;
+        width: 15em;
     }
     
     .grid-container {
@@ -27,4 +30,10 @@
     .grid-item {
         font-size: 25px;
     }
+.select {
+    width: 10em;
+    
+
+}
+
     }    
