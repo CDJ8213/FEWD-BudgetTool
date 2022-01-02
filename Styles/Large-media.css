@@ -3,8 +3,20 @@
     .data-entry_input {
         flex-direction: row;
         width: 47%;
+        height: 2em;
         margin-left: .9em;
         margin-top: .25em;
+        font-size: 15px;
+    }
+
+    .data-entry_saves {
+        font-size: 15px;
+
+    }
+    .data-entry_clear {
+        font-size: 15px;
+        margin-top: 1.25em;
+        margin-left: -3.75em;
     }
     
     .grid-container {
