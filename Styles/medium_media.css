@@ -1,8 +1,4 @@
 @media screen and (min-width: 769px) {
-
-    .data-entry_input {
-        flex-direction: column;
-    }
         
     .grid-container {
         grid-template-columns: 350px 300px;

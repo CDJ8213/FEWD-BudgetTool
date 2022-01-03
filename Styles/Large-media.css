@@ -1,8 +1,7 @@
 @media screen and (min-width: 960px) {
 
     .data-entry_input {
-        flex-direction: row;
-        width: 47%;
+        width: 96%;
         height: 2em;
         margin-left: .9em;
         margin-top: .25em;
@@ -13,7 +12,6 @@
         font-size: 15px;
         margin-left: 7em;
         width: 15em;
-
     }
     .data-entry_clear {
         font-size: 15px;
@@ -23,15 +21,15 @@
     }
     
     .grid-container {
-        grid-template-columns: 600px 400px;
-        margin-left: 6.5em;
+        margin-left: 1em;
+        
     }
         
     .grid-item {
         font-size: 25px;
     }
-.select {
-    width: 10em;
+    .select {
+        width: 10em;
     
 
 }

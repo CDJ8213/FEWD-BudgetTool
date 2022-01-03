@@ -16,57 +16,59 @@
     margin-bottom: .5em;
     margin-left: .6em;
     flex-direction: column;
-    margin-left: .6em;
     border-radius: 25px;
-        
-         }
-    
-.div {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+        
     }
 
 .data-entry_selector {
     padding: .25em;
-    width: 7em;
+    width: 6em;
     height: 1em;
+    margin-top: .02em;
+    
            
     }
         
 .data-entry_saves  {
     padding: .25em;
-    width: 7em;
+    width: 6em;
     border-radius: 25px;
     margin-top: .02em;
-        
+    
     }
 .data-entry_clear {
     padding: .25em;
-    width: 7em;
+    width: 6em;
     border-radius: 25px;
     margin-top: .02em;
+   
         
     }
 .data-entry_actions{
     display: flex;
-        }
+    flex-wrap: wrap;
+    flex-direction: row;        }
         
 .grid-container {
     display: inline-grid;
     grid-template-columns: 185px 130px;
-    background-color: #165181;
-    padding: 10px;
+    padding: 6px;
     margin-top: 2em;
     margin-left: .1em;
+    grid-gap: 10px;
+    border-radius: 15px;
     }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
     font-size: 15px;
     text-align: center;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
+    border-radius: 15px;
+
     }
 
 .select {
@@ -76,3 +78,7 @@
     border-radius: 25px;
 
     }
+
+.grid-container:nth-child(3) {
+    background-color: darkgreen;
+}
