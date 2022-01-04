@@ -3,5 +3,13 @@
     .grid-container {
         grid-template-columns: 350px 300px;
         }
+
+    .data-entry_inputs {
+        flex-direction: row;
+        
+    }
+    .data-entry_input {
+        width: 48%;
+    }
     
     }

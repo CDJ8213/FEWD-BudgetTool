@@ -10,16 +10,18 @@
     transform: translate(-50%, -50%);
 }
 
-.data-entry_input {
+.data-entry_inputs {
     width: 90%;
     padding: .5em;
     margin-bottom: .5em;
     margin-left: .6em;
     flex-direction: column;
-    border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
         
+    }
+    .data-entry_input {
+        border-radius: 25px;
     }
 
 .data-entry_selector {
