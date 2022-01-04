@@ -17,11 +17,10 @@
     margin-left: .6em;
     flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
         
     }
-    .data-entry_input {
-        border-radius: 25px;
+.data-entry_input {
+    border-radius: 25px;
     }
 
 .data-entry_selector {
@@ -50,7 +49,6 @@
     }
 .data-entry_actions{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;        }
         
 .grid-container {
